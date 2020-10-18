@@ -1,0 +1,12 @@
+{
+	"idle": "180",
+	"pidfile": "~/.mbts/pid",
+	"actions": [
+		{
+			"cmd" : "mbsync",
+			"args": ["-c", ".mbsyncrc", "-a", "-q", "-q"]
+		}
+	],
+	"loglevel-server": 4,
+	"loglevel-client": 4
+}

@@ -1,0 +1,10 @@
+{
+	"action": {
+		"cmd": "mbsync",
+		"args": ["-c", ".mbsyncrc", "-a", "-q", "-q"]
+	},
+	"reply": {
+		"status": 200,
+		"data": { }
+	}
+}
